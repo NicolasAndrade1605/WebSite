@@ -6,6 +6,7 @@
     <title>Website With Login & Registration Form</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js"></script>
 </head>
 <body>
     <header class="header">
@@ -22,6 +23,7 @@
         </form>
     </header>
 
+    <div class="background"></div>
     <div class="container">
         <div class="content">
             <h2 class="logo"><i class='bx bxl-meta'></i>Meta</h2>
@@ -65,6 +67,39 @@
 
                     <div class="login-register">
                         <p>Don't have an account? <a href="#" class="register-link">Sign up</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="form-box register">
+                <form action="#">
+                    <h2>Sign Up</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-user'></i></span>
+                        <input type="email" required>
+                        <label>Name</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">I agree to the terms & conditions</label>
+                    </div>
+
+                    <button type="submit" class="btn">Sign In</button>
+
+                    <div class="login-register">
+                        <p>Already have an account? <a href="#" class="login-link">Sign in</a></p>
                     </div>
                 </form>
             </div>
